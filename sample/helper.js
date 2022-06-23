@@ -12,7 +12,7 @@ const read = function () {
   });
 };
 const write = function () {
-  fs.writeFile("sample.json", JSON.stringify(person), function () {
+  fs.writeFile("./sample.json", JSON.stringify(person), function () {
     console.log("書き出し完了");
   });
 };
