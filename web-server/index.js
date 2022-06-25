@@ -26,6 +26,7 @@ app.get("/api/v1/user", function (req, res) {
   res.send("About");
 });
 
+const PORT = process.env.PORT || 3000;
 app.listen(3000, function () {
   console.log("running!");
 });
